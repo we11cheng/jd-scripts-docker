@@ -33,3 +33,10 @@ services:
     - ./env/all:/all
     - ./env/env3:/env
     - ./custom.list:/custom.list
+  jd4:
+    <<: [ *logger, *common ]
+    container_name: jd4
+    volumes:
+    - ./env/all:/all
+    - ./env/env4:/env
+    - ./custom.list:/custom.list

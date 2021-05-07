@@ -1,0 +1,5 @@
+#!/bin/bash
+pt_key=AAJglOKtADAin6dtHB0HZ2LR4crDppUVmXBNCxyxfeKCsPTFVf0xne7w7wJi0NtrTcu8VfNtr6A
+pt_pin=jd_4c548c28526c4
+JD_COOKIE="pt_key=$pt_key;pt_pin=$pt_pin;"
+
