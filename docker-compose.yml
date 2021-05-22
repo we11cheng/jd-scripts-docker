@@ -42,7 +42,7 @@ services:
     - ./custom.list:/custom.list
   jd5:
     <<: [ *logger, *common ]
-    container_name: jd4
+    container_name: jd5
     volumes:
     - ./env/all:/all
     - ./env/env5:/env
